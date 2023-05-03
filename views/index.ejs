@@ -18,7 +18,7 @@
       <div class="card bg-dark text-white" style="width: 80vw; margin:auto; margin-bottom: 2vh; border-color: #ADD8E6; border-width: 4px; border-radius: 20px;">
         <div class="card-body">
           <h5 class="card-title"><a href="https://amdsb.topdesk.net/tas/secure/contained/incident?unid=<%=tickets[i].id%>"><%=tickets[i].number%></a></h5>
-          <h6 class="card-subtitle mb-2 text-muted">Status: <%=tickets[i].processingStatus.name%></h6>
+          <h6 class="card-subtitle mb-2 text-white">Status: <%=tickets[i].processingStatus.name%></h6>
           <p class="card-text"><%- tickets[i].request.replace(/\r\n/g, '<br>') %></p>
           <a href="#" class="card-link">Card link</a>
         </div>
